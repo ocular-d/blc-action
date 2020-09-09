@@ -7,12 +7,12 @@
 ## Table of Contents
 
 - [About the Project](#-about)
-- [Getting Started](#🚀-getting-started)
+- [Getting Started](#-getting-started)
   - [Optional Parameters](#optional-parameters)
   - [Test](#test)
-- [Contributing](#🤝-contributing)
-- [License](#📝-license)
-- [Credits](#🙏-credits)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Credits](#-credits)
 
 ## 📄 About
 
