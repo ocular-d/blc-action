@@ -1,0 +1,14 @@
+# This is the file in the root of the project.
+# For sub folders you can have other files that override only some settings.
+# For these, this settings should be false.
+root = true
+
+[*.md]
+max_line_length = 120
+indent_style = space
+indent_size = 4
+continuation_indent_size = 8
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
