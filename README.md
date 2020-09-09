@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-- [About the Project](#📄-about)
+- [About the Project](#-about)
 - [Getting Started](#🚀-getting-started)
   - [Optional Parameters](#optional-parameters)
   - [Test](#test)
