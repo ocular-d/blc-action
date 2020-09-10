@@ -1,11 +1,8 @@
 on:
-  push:
-    paths:
-    - '*.md'
-    - '/docs/*'
+  push
 name: Testing linkcheck
 jobs:
-  markdown-link-check:
+  blc-link-check:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
