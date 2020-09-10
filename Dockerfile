@@ -27,7 +27,7 @@ RUN npm install \
     && npm link \
     && npm cache clean --force
 
-RUN chmod +x test.sh
+RUN chmod +x entrypoint.sh
 ENTRYPOINT [ "./entrypoint.sh" ]
 #ENTRYPOINT [ "bash" ]
 #ENTRYPOINT ["./test.sh"]
