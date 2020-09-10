@@ -8,3 +8,5 @@ jobs:
     - uses: actions/checkout@master
     - name: blc
       uses: ./
+      with:
+        url: 'https://github.com/ocular-d/blc-action'

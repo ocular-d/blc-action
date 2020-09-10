@@ -12,7 +12,7 @@ PURPLE='\033[0;34m'
 #npm i -g broken-link-checker -s
 
 echo -e "$PURPLE=== BROKEN LINK CHECKER ===$NC"
-echo -e "Running broken link checker on url: $GREEN $1 $NC"
+echo -e "Running broken link checker on URL: $GREEN $1 $NC"
 
 # Create exclude and settings strings based on configuration
 EXCLUDE=""
@@ -21,7 +21,7 @@ SET_RECURSIVE=""
 
 if [ -z "$1" ] || [ "$1" == 'https://github.com/ocular-d/link-checker' ]
 then
-    echo -e "$YELLOW Warning: Running test on default url, please provide an url in you action yml.$NC"
+    echo -e "$YELLOW Warning: Running test on default URL, please provide an URL in you action yml.$NC"
 fi
 
 # Set arguments for blc
