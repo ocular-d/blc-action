@@ -80,6 +80,10 @@ There is a broken link in this document as a test:
 
 We are a community effort, and everybody is most welcome to participate!
 
+## WIP Notes
+
+- https://dev.to/nodepractices/docker-best-practices-with-node-js-4ln4
+
 Be it filing bugs, formulating enhancements, creating pull requests, or any other means of contribution, we encourage contributions from everyone.
 
 ## 📝 License
