@@ -7,6 +7,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: blc
+      id: link-report
       uses: ./
       with:
         url: 'https://github.com/ocular-d/blc-action'
+    - name: Get the result
+      run: echo "${{steps.link-report.outputs.result}}"

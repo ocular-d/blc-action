@@ -1,0 +1,22 @@
+name: Broken Link Check
+
+on:
+  push
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    name: Check for broken links
+    steps:
+      - name: Check for broken links
+        id: link-report
+        uses: celinekurpershoek/github-actions-link-checker@v1.0.1
+        with:
+          # Required:
+          url: "https://github.com/ocular-d/blc-action"
+          # optional:
+          honorRobotExclusions: false
+          #ignorePatterns: "github,google"
+          recursiveLinks: false # Check all urls on all reachable pages (could take a while)
+      - name: Get the result
+        run: echo "${{steps.link-report.outputs.result}}"
